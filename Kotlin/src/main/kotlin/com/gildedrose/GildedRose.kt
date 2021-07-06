@@ -60,6 +60,7 @@ class GildedRose(var items: Array<Item>) {
         }
     }
 
+    // helper functions for items
     fun getFirstItem(name: String): Item? {
         for (item in items) {
             if (item.name == name) {

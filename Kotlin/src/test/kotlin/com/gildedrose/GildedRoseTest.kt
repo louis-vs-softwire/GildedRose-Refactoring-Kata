@@ -7,14 +7,14 @@ import org.junit.jupiter.api.Test
 
 internal class GildedRoseTest {
     // item names
-    val elixirName = "Elixir of the Mongoose"
-    val brieName = "Aged Brie"
-    val sulfurasName = "Sulfuras, Hand of Ragnaros"
-    val backstagePassName = "Backstage passes to a TAFKAL80ETC concert"
-    val conjuredName = "Conjured Mana Cake"
+    private val elixirName = "Elixir of the Mongoose"
+    private val brieName = "Aged Brie"
+    private val sulfurasName = "Sulfuras, Hand of Ragnaros"
+    private val backstagePassName = "Backstage passes to a TAFKAL80ETC concert"
+    private val conjuredName = "Conjured Mana Cake"
 
     // app instance
-    lateinit var app: GildedRose
+    private lateinit var app: GildedRose
 
     @BeforeEach
     fun init() {
